@@ -1,8 +1,5 @@
 {
   "name": "asg-agent-ops",
-  "version": "0.1.0",
   "description": "ASG管制塔運用 skill 集（送信・同期・起動ルーチン・push経路2）",
-  "author": {"name": "Ascente Japan (ASG)"},
-  "skills": ["send-handoff", "changelog-update", "session-start", "push-route-2", "handoff-inbox", "pipeline-check"],
-  "license": "Proprietary"
+  "author": {"name": "Ascente Japan (ASG)"}
 }
