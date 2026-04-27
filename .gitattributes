@@ -1,0 +1,14 @@
+# Windows実行スクリプトは CRLF 強制
+*.bat text eol=crlf
+*.vbs text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# それ以外は LF
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
