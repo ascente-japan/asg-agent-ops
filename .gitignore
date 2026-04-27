@@ -1,0 +1,48 @@
+# ASG 標準 .gitignore（templates/gitignore.standard v1 配布、2026-04-27）
+
+# 認証情報
+.env
+env/
+credentials.json
+client_secret*.json
+token.json
+*.pem
+*secret*
+*credential*
+*.bak
+.env.bak*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# uv
+.venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code ローカル設定
+.claude/settings.local.json
+.claude/launch.json
+.claude/worktrees/
+
+# Google Drive リンクファイル
+*.gdoc
+*.gsheet
+*.gslides
+
+# Handoff
+handoff/
+handoff_tmp/
+handoff_drafts/
+
+# ログ / Temp
+logs/
+*.log
+tmp_*.json
+tmp_*.csv
